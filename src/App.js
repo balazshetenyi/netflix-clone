@@ -1,22 +1,23 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
-import Home from './pages/home';
+import * as ROUTES from './constants/routes'
+import { Home, Signin } from './pages'
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/signin">
-          <p>I will be the sign in page</p>
+        <Route path={ROUTES.SIGN_IN}>
+          <Signin />
         </Route>
-        <Route path="/signup">
+        <Route path={ROUTES.SIGN_UP}>
           <p>I will be the sign up page</p>
         </Route>
-        <Route path="/browse">
+        <Route path={ROUTES.BROWSE}>
           <p>I will be the browse page</p>
         </Route>
-        <Route path="/">
+        <Route path={ROUTES.HOME}>
           <Home />
         </Route>
       </Switch>
