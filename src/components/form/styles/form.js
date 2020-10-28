@@ -4,14 +4,14 @@ import { Link as ReachRouterLink } from 'react-router-dom'
 export const Container = styled.section`
     display: flex;
     flex-direction: column;
-    min-height: 660px;
+    min-height: 560px;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 5px;
     box-sizing: border-box;
     width: 100%;
     margin: auto;
     max-width: 450px;
-    padding: 60px 68px 40px;
+    padding: 2em 2.8em;
     margin-bottom: 100px;
 `
 

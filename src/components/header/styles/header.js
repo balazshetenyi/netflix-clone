@@ -50,7 +50,7 @@ export const ButtonLink = styled(ReachRouterLink)`
     height: fit-content;
     color: white;
     border: 0;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 3px;
     padding: 8px 17px;
     cursor: pointer;
