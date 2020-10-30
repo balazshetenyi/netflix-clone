@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import { GlobalStyles } from './global-styles';
 import { FirebaseContext } from './context/firebase';
 
+ 
 const config = {
   apiKey: "AIzaSyBbGNl6IqFG1HcVvliHPNqPgsWA2rIL3ig",
   authDomain: "netflix-clone-ef549.firebaseapp.com",
@@ -12,10 +13,12 @@ const config = {
   projectId: "netflix-clone-ef549",
   storageBucket: "netflix-clone-ef549.appspot.com",
   messagingSenderId: "664676776514",
-  appId: "1:664676776514:web:f499ef4338992822960bdb"
+  appId: "1:664676776514:web:f499ef4338992822960bdb",
+  measurementId: "G-JH0HJ41G9M"
 }
 
 const firebase = window.firebase.initializeApp(config)
+
 
 ReactDOM.render(
   <React.StrictMode>
