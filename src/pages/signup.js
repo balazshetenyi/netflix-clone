@@ -28,11 +28,13 @@ export default function Signup() {
                     photoURL: Math.floor(Math.random() * 5) + 1
                 })
                 .then(() => {
+                    setEmailAddress('')
+                    setPassword('')
+                    setError('')
                     history.push(ROUTES.BROWSE)
                 })
             ).catch(error => {
-                setEmailAddress('')
-                setPassword('')
+                
                 setError(error.message)
             })
     }
