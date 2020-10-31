@@ -6,12 +6,8 @@ import { selectionMap } from '../utils'
 export default function Browse() {
     const { series } = useContent('series')
     const { films } = useContent('films')
-    const selection = selectionMap({ series, films })
+    const slides = selectionMap({ series, films })
 
     
-    return (
-        <>
-            <BrowseContainer slides={selection} />
-        </>
-    )
+    return  <BrowseContainer slides={slides} />
 }
