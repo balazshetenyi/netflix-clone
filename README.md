@@ -9,5 +9,5 @@ Register, login, search, browse and watch movies and series just like the origin
 Fuse.js - Fantastic live search feature
 
 ### Acknowledgments
-* Many thanks for **Karl Hadwen** - @karlhadwen for this amazing application and those fantastic technologies that I was able to learn from him, therefore, having it in my personal tool kit.
-* Also, many thanks for **[Scrimba](https://scrimba.com/learn/frontend)** for the brilliant frontend developer career path for all those great challenges and the knowledge that I have learnt from it. - https://scrimba.com/learn/frontend
+* Many thanks for **Karl Hadwen** - @karlhadwen for this amazing course/application and the fantastic technologies that I was able to learn from it, therefore, having them in my personal tool box.
+* Also, many thanks for **[Scrimba](https://scrimba.com/learn/frontend)** for the brilliant frontend developer career path for all those great challenges and the knowledge that I have learnt. - https://scrimba.com/learn/frontend
